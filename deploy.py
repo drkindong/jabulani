@@ -62,7 +62,7 @@ def pathContainsDot(p):
         if c.match(pc) != None:
             return True
 
-    return False
+    return True
 
 
 def getDeployments():
